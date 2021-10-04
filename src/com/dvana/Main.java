@@ -16,10 +16,10 @@ public class Main {
         brand.setYear(2000);
         Brand brandCopy = brand.clone();
         brandCopy.setYear(2002);
-        System.out.println("the year of the first car: " + brand.getYear());
-        System.out.println("the year of the second car:" + brandCopy.getYear());
+        System.out.println("The year of the first car: " + brand.getYear());
+        System.out.println("The year of the second car:" + brandCopy.getYear());
         Car car = new CarBuilder().setColor("black").setBrand("Toyota").setNumberOfDoors(2).setIsConvertible(true).createCar();
-        System.out.println(car.isConvertible);
+//        System.out.println(car.isConvertible);
     }
 
     public static void createCar(String type) {

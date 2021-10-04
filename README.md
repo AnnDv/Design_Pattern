@@ -60,3 +60,5 @@ Prototype pattern refers to creating duplicate object while keeping performance 
     }
 ```
 
+#### Result
+![](../../../../../Desktop/Screenshot 2021-10-04 at 20.36.16.png)
